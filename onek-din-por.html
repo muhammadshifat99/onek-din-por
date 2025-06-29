@@ -6,14 +6,69 @@
 	<title>onekdinpor</title>
 </head>
 <body id="body">
-	<header>
-		<div class="header-one-half">
-			Logo
+	<style>
+		.container{
+			display: flex;
+			gap: 20px;
+		}
+		.container2{
+			display: flex;
+			gap: 6px;
+			flex-wrap: wrap;
+		}
+		.box{
+			background: #4e3b9b;
+			color: #fff;
+			padding: 20px;
+			border-radius: 20px;
+		}
+		.item{
+			width: 200px;
+			height: 100px;
+			background: tomato;
+			border: 3px solid aqua;
+		}
+
+		}
+		@media screen and (max-width: 576px){
+			.container{
+				flex-direction: column;
+			}		
+		}
+
+	</style>
+	<div class="container">
+		<div class="box">
+			<h3>one half</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		<div class="header-one-half">
-			menu
+		<div class="box">
+			<h3>tow half</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-	</header>
-	<script src="./js/custom.js"></script>
+	</div>
+	<div class="container2">
+		<div class="item">item</div>
+		<div class="item">item</div>
+		<div class="item">item</div>
+		<div class="item">item</div>
+		<div class="item">item</div>
+		<div class="item">item</div>
+		<div class="item">item</div>
+		<div class="item">item</div>
+		<div class="item">item</div>
+		<div class="item">item</div>
+	</div>
+	<!-- <script src="./js/custom.js"></script> -->
 </body>
 </html>
