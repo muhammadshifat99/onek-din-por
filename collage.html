@@ -5,18 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+       
         .container {
             border: 2px solid salmon;
             display: flex;
+            /* justify-content: center;
+            align-items: center; */
             justify-content: center;
             align-items: center;
-            height: 300px;
+            flex-direction: row;
+            flex-wrap: wrap;
+         /*    height: 300px; */
+            padding: 10px;
+            background: rgb(233, 179, 160);
 
         }
         .box{
             width: 100px;
             height: 100px;
             border: 2px dashed #4e3b9b;
+            text-align: center;
+            margin: 10px;
+            font-size: 20px;
+            color: white;
+            background-color: rgb(65, 133, 133);
         }
     </style>
 </head>
@@ -26,6 +48,17 @@
         <div class="box">Box-1</div>
         <div class="box">Box-2</div>
         <div class="box">Box-3</div>
+        <div class="box">Box-4</div>
+        <div class="box">Box-5</div>
+        <div class="box">Box-6</div>
+        <div class="box">Box-7</div>
+        <div class="box">Box-8</div>
+        <div class="box">Box-9</div>
+        <div class="box">Box-10</div>
+        <div class="box">Box-11</div>
+        <div class="box">Box-12</div>
+        <div class="box">Box-13</div>
+        <div class="box">Box-14</div>
     </div>
 </body>
 </html>
