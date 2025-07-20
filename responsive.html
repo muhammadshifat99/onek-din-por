@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        body{
+            max-width: 1200px;
+            margin: 0 auto;
+            border-left: 0 1px;
+            border-style: solid;
+            border-color: darkred;
+            
+        }
+        .image-container{
+            display: flex;
+        }
+        .image-container div{
+            width: 50%
+        }
+        .image-container img{
+            width:100%;
+        }
+
+
+        @media screen and (max-width:576px){
+            .image-container{
+                flex-direction: column;
+            }
+            .image-container div{
+            width: 100%
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive Website</h1>
+        <ol>
+            <li>Viewport Meta Tag</li>
+            <li>CSS Relative Unit</li>
+            <li>Body max-width and horizontal center align</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <div>
+                <img src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-asian-sumatran-tigers/disney-animals-asian-sumatran-tigers-00.jpg?1658996208764" alt="">
+            </div>
+
+             <div>
+                <img src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-asian-sumatran-tigers/disney-animals-asian-sumatran-tigers-00.jpg?1658996208764" alt="">
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
