@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contauner{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap:20px;
+        }
+        .food img{
+            width:100%;
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+        .food{
+            border-radius: 10px;
+            border: 1px solid deeppink ;
+            padding:10px;
+        }
+        /*simple media query*/
+        
+        
+        @media all and (max-width: 992px){
+            .contauner{
+                grid-template-columns: repeat(3, 1fr);
+            }            
+        }
+        @media all and (max-width: 768px){
+            .contauner{
+                grid-template-columns: repeat(2, 1fr);
+            }            
+        }
+
+        @media all and (max-width: 576px){
+            .contauner{
+                grid-template-columns: repeat(1, 1fr);
+            }            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="contauner">
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 1</h3>
+            <p>price: $1</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe itaque minima laudantium excepturi sed quia minus dolores tempora cum sunt.</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 2</h3>
+            <p>price: $2</p>
+            <p>Repellat excepturi eligendi nobis doloribus repellendus facilis beatae odio et in incidunt aspernatur nostrum asperiores earum vero ullam, veniam ipsa.</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 3</h3>
+            <p>price: $3</p>
+            <p>Ea delectus porro itaque quam beatae. Quas hic provident fugiat fugit blanditiis vel, minus, dignissimos quasi libero sunt facilis atque.</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 4</h3>
+            <p>price: $4</p>
+            <p>Beatae, quaerat! Accusamus quo autem quae ratione quia impedit ducimus nisi asperiores, voluptate voluptatibus neque iure, optio eos deserunt minus.</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 5</h3>
+            <p>price: $5</p>
+            <p>Error perferendis voluptates ratione suscipit at, iste, modi consectetur veniam facilis enim, earum praesentium officia. Corporis quos impedit eos quo?</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 6</h3>
+            <p>price: $6</p>
+            <p>Et asperiores voluptatum commodi incidunt perferendis aliquid atque illo. Pariatur corporis nisi, omnis et accusantium voluptatem odio. Rem, in architecto!</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 7</h3>
+            <p>price: $7</p>
+            <p>Et ducimus odit nam? Pariatur in sit beatae, quos velit minus voluptate excepturi, ratione odio suscipit, est molestias impedit. Culpa.</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 8</h3>
+            <p>price: $8</p>
+            <p>Molestias, incidunt eum! Qui aspernatur impedit deserunt rerum voluptatibus voluptates, cupiditate molestias quod nemo enim? Qui dolorem animi veniam debitis.</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 9</h3>
+            <p>price: $9</p>
+            <p>Asperiores soluta veritatis hic libero velit, adipisci assumenda rerum harum minus quam impedit laborum, voluptas natus veniam ab modi voluptate.</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 10</h3>
+            <p>price: $10</p>
+            <p>Ullam animi culpa ipsam voluptates eius voluptas! Consectetur tenetur numquam excepturi quaerat, est reprehenderit odio enim totam facilis neque eius?</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 11</h3>
+            <p>price: $11</p>
+            <p>Tempore, quas aliquam! Quod omnis iusto fuga qui debitis, incidunt cum hic harum reprehenderit mollitia quidem, eum saepe sequi totam.</p>
+            <button>Buy Now</butto>
+        </div>
+        <div class="food">
+            <img src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=" alt="">
+            <h3>Food Item - 12</h3>
+            <p>price: $12</p>
+            <p>Nisi accusantium voluptate debitis optio, est eum delectus repellendus quo nobis error veniam? Harum debitis unde cumque, eos repellat possimus?</p>
+            <button>Buy Now</butto>
+        </div>
+    </div>
+</body>
+</html>
